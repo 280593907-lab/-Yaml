@@ -21,6 +21,7 @@
 ### 📝 配置随笔
 - 本项目的配置文件适用于 **Mihomo 核心** 的工具使用，如：**OpenWrt（Clash / Nikki 插件）、Clashmi、FlClash、Clash Meta ……**。
 - 使用需完善 **订阅链接** 与 **机场名**，并将 **nameserver** 修改为运营商提供的 DNS 地址，以提升解析速度。
+- 配置文件默认开启 **绕过中国大陆模式**，匹配大陆IP-CIDR（流量不进入代理）。
 
 ### 🛠️ 配套工具
 - Windows端一键生成工具 **（推荐使用）**：[Seven1_Yaml_生成工具.exe](https://raw.githubusercontent.com/Seven1echo/Yaml/refs/heads/main/Seven1_Yaml_%E7%94%9F%E6%88%90%E5%B7%A5%E5%85%B7.exe)
@@ -30,7 +31,7 @@
 | 类型 | **Geo** | **Rule-Set** | **Overwrite** |
 |:--:|:--:|:--:|:--:|
 | 说明 | 使用**GeoSite / GeoIP** 数据库分流 | 使用**Rule-Set** 规则集分流 | 软件覆写文件 |
-| 文件 | [Seven1_fallback_Geo.yaml](https://github.com/Seven1echo/Yaml/blob/main/Seven1_fallback_Geo.yaml) | [Seven1_fallback_Rule-Set.yaml](https://github.com/Seven1echo/Yaml/blob/main/Seven1_fallback_Rule-Set.yaml) | ***_Clashmi_Overwrite.yaml |
+| 文件 | [Seven1_fallback_Geo.yaml](https://github.com/Seven1echo/Yaml/blob/main/Seven1_fallback_Geo.yaml) | [Seven1_fallback_Rule-Set.yaml](https://github.com/Seven1echo/Yaml/blob/main/Seven1_fallback_Rule-Set.yaml) | ***_Overwrite.yaml |
 
 ### 📚 图文教程
 <p>
@@ -101,7 +102,7 @@
 ---
 
 ## 三、Zashboard 界面
-<img width="1536" height="2588" alt="zashboard" src="https://github.com/user-attachments/assets/5e3f479c-92d8-4c0b-8760-2548196fb3da" />
+<img width="1376" height="2064" alt="Zashboard" src="https://github.com/user-attachments/assets/954ce76d-4270-4b4b-a052-e28d49dca596" />
 
 
 
